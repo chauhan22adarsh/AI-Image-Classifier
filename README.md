@@ -45,10 +45,10 @@ CIFAKE test set (20k images):
 
 | Model | Test accuracy | AUC |
 |---|---|---|
-| Baseline CNN (overfit) | 85.58% | 0.959 |
-| Regularized CNN + augmentation | 86.94% | 0.964 |
-| **Regularized CNN, no augmentation (final model)** | **92.80%** | **0.980** |
-| ResNet50 (frozen, transfer learning) | 76.49% | 0.841 |
+| Baseline CNN (overfit) | 86.63% | 0.968 |
+| Regularized CNN + augmentation | 90.93% | 0.976 |
+| **Regularized CNN, no augmentation (final model)** | **93.28%** | **0.983** |
+| ResNet50 (frozen, transfer learning) | 76.50% | 0.842 |
 
 Out-of-distribution (own images, outside CIFAKE): 2/2 = 100%, small sample.
 
